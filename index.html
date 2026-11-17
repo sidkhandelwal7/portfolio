@@ -23,7 +23,28 @@
 
     <section id="about">
       <h2>About Me</h2>
-      <p>I'm Siddhant Khandelwal, a senior at the University of Pittsburgh double majoring in Computer Science and Finance, graduating in May 2027. This past summer I was a software engineering intern at PNC, where I worked on moving a batch application from .NET Framework to .NET 10 and led OneView, our team's project that won PNC's intern innovation competition among 312 interns. Before that, I was a software engineering intern at Skild AI and a finance intern at Envestnet. I'm most interested in building software for finance.</p>
+      <p>I'm Siddhant Khandelwal, a senior at the University of Pittsburgh double majoring in Computer Science and Finance, graduating in the Spring of 2027. This past summer I was a software engineering intern at PNC, where I worked on moving a batch application from .NET Framework to .NET 10 and led OneView, my team's project that won PNC's intern innovation competition among 312 interns. Before that, I was a software engineering intern at Skild AI and a finance intern at Envestnet. One of things I'm most interested in is building software for fintech/finance companies.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Job Radar</h3>
+        <p>A personal job search tool that finds new postings, ranks them, and shows them on a dashboard and through a Telegram bot so I can decide where to apply. It's built with Python and SQLite, a Next.js and React dashboard, and scheduled runs on my Mac plus a GitHub Actions job in the cloud, and it costs $0 a month to run. The biggest thing I learned was to test fixes under real load as one fix to the duplicate check made it run in quadratic time, and a long soak test is what caught it.</p>
+        <p><a href="https://github.com/sidkhandelwal7/job-radar">Code on GitHub</a></p>
+      </div>
+
+      <div class="project">
+        <h3>edge-engine</h3>
+        <p>An AI analyst paired with a Python pricing engine that prices sports bets the way a trading desk would, with the analyst held to a 15-rule spec. Every bet is graded on process instead of outcome, so a well-reasoned bet that loses still counts as a good decision and a lucky win does not. Building it taught me to judge a decision by the reasoning behind it, not just by how it turned out.</p>
+        <p><a href="https://github.com/sidkhandelwal7/edge-engine">Code on GitHub</a></p>
+      </div>
+
+      <div class="project">
+        <h3>Steth-o-Beat</h3>
+        <p>A $2.25 stethoscope that uses a machine learning model to classify breathing sounds, with 360+ devices now in use across 16 clinics in India. The model is TensorFlow's speech_commands example retrained on respiratory sound labels and converted to TensorFlow Lite. It taught me that a medical device has to be cheap and simple before clinics will actually use it.</p>
+      </div>
     </section>
 
     <section id="skills">
